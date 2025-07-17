@@ -22,6 +22,10 @@ Comprehensive fintech user analytics: Insights, segmentation, profiling, and pre
 
 ## Project Overview
 
+FinTech User Analytics is an end-to-end data solution designed to uncover behavioural and engagement insights from simulated fintech user data. This project identifies churn patterns, product adoption drivers (such as credit card interest), and engagement trends across mobile platforms. By leveraging data on user activity, financial behaviour, and platform preferences, it provides business-ready insights and predictive models to support decision-making in customer retention, product personalisation, and digital experience optimisation.
+
+## Business Context & Problem Statement
+
 In today’s fast-moving fintech landscape, companies face intense competition for user acquisition and retention. Understanding how users interact with financial products and digital platforms is essential for building loyalty, increasing engagement, and driving sustainable growth. Modern fintech platforms must analyse behavioural trends and engagement patterns to:
  * Reduce customer acquisition costs
  * Improve user retention and lifetime value
@@ -38,6 +42,10 @@ This project leverages simulated fintech user data to:
 
 Solution:
 This project delivers an interactive analytics platform that analyses user behaviour, financial engagement, and product adoption trends. Through visualisations and machine learning models, it surfaces actionable insights for business strategy and operational decision-making.
+
+## Objectives
+
+
 
 ## Credits
 
