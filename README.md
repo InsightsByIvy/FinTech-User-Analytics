@@ -45,6 +45,12 @@ This project delivers an interactive analytics platform that analyses user behav
 
 ## Objectives
 
+ * Segment fintech users based on demographic, behavioural, and financial attributes to uncover distinct user personas
+ * Identify high-risk churn segments and high-value loyal users using engagement and transaction data
+ * Analyse key drivers of loyalty, including app usage patterns, referral behaviour, and reward incentives
+ * Predict user retention likelihood to support targeted marketing and feature personalisation strategies
+ * Provide actionable insights for product teams to optimise onboarding, referral flows, and feature adoption
+ * Visualise engagement and loyalty trends via interactive dashboards for strategic business decision-making
 
 
 ## Credits
