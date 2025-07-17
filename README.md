@@ -38,3 +38,10 @@ This project leverages simulated fintech user data to:
 
 Solution:
 This project delivers an interactive analytics platform that analyses user behaviour, financial engagement, and product adoption trends. Through visualisations and machine learning models, it surfaces actionable insights for business strategy and operational decision-making.
+
+## Credits
+
+ - [Kaggle](https://www.kaggle.com/datasets/niketdheeryan/fintech-users-data): For providing the FinTech Users Dataset
+ - [Canva](https://www.canva.com/design/DAGtbZPuH18/A0jzAFmy08rXnbawqq0WXA/edit) is used for project Image
+ - Variety of [AI](https://chatgpt.com/?model=auto) Tools were used to suggest and debug codes
+ - [Seaborn](https://seaborn.pydata.org/) documentation was reviewed for visualisation
