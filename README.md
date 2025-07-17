@@ -52,6 +52,26 @@ This project delivers an interactive analytics platform that analyses user behav
  * Provide actionable insights for product teams to optimise onboarding, referral flows, and feature adoption
  * Visualise engagement and loyalty trends via interactive dashboards for strategic business decision-making
 
+ ## Hypotheses
+
+FinTech users can be segmented into distinct personas based on behavioural patterns. These personas display significantly different levels of engagement, retention, and financial value, making them actionable for business strategy.
+This project investigates whether distinct FinTech user behaviours can be used to classify users into personas that help explain differences in engagement, churn, and product interest. 
+These insights can be used by fintech platforms to inform product design, marketing, and retention strategies.
+
+**Key Hypotheses**:
+ 1. Users who earn higher rewards are less likely to churn. 
+
+     **Validation:**  Compare churn rates across reward levels using visual analytics and churn prediction models (e.g., logistic regression or decision trees).
+
+2. Users referred by others show stronger retention and greater interest in financial products.
+
+    **Validation:** Segment referred vs. non-referred users and evaluate retention indicators, product uptake (e.g., credit card interest), and average engagement scores.
+
+3. App users (especially on mobile) demonstrate higher engagement than web-only users.
+
+    **Validation:** Analyse engagement metrics across different user types (app_user, web_user, ios_user, android_user) using clustering and descriptive comparison.
+
+
 
 ## Credits
 
