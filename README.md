@@ -71,7 +71,43 @@ These insights can be used by fintech platforms to inform product design, market
 
     **Validation:** Analyse engagement metrics across different user types (app_user, web_user, ios_user, android_user) using clustering and descriptive comparison.
 
+## Dataset
 
+## Project Structure
+
+<pre>📦 FinTech_User_Analytics
+├── 📁 Data
+│    └── 📁 Cleaned
+│        └── 📄 cleaned_data.csv 
+│    └── 📁 Raw
+│        └── 📄 Fintech_user.csv                   
+├── 📁 Notebooks
+│   ├── 📄 01_initial_inspection.ipynb         
+│   ├── 📄 02_data_cleaning.ipynb            
+│   └── 📄 03_hypothesis_testing.ipynb         
+├── 📁 Images
+├── 📄 .gitignore                              # Specifies files/folders Git should ignore
+├── 📄 README.md                               # Project overview
+├── 📄 requirements.txt                        # Dependencies
+└── 📄 Tableau_Dashboard.twbx                  # Packaged dashboard (if used)
+</pre>
+
+
+## How To Use This Project
+
+## Methodology
+
+## Visualisation
+
+## Key Findings & Insights
+
+## Future Improvements
+
+## Learning Outcomes and Reflection
+
+## Ethical Considerations
+
+## Technologies Used
 
 ## Credits
 
