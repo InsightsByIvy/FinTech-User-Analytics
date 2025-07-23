@@ -129,6 +129,48 @@ This project follows a structured data science approach to extract user insights
 
 ## Visualisation
 
+This project incorporates both exploratory visualizations in Python notebooks and an interactive Tableau dashboard to gain insights into user behavior and engagement.
+
+### Notebook Visualisations
+To understand the distribution and variability of key numerical features, we plotted:
+
+ * Histograms for:
+    * `age`
+    * `credit_score`
+    * `deposits`
+    * `withdrawal`
+    * `rewards_earned`
+    * `reward_rate`
+
+These histograms help visualise the spread and skewness of each variable, allowing for identification of trends, outliers, and anomalies.
+
+
+ * Boxplots for:
+     * `credit_score`
+     * `rewards_earned`
+
+These were used to detect outliers and examine the central tendency and spread of the values, offering insight into potential data quality issues or irregular user behaviour.
+
+### Tableau Dashboard
+
+An interactive dashboard was created using Tableau to explore key performance indicators and user segmentation. The dashboard includes:
+
+ * **Core KPIs**: Highlights of overall performance metrics such as average churn rate, engagement scores, and referral effectiveness.
+ * **User Clusters**: Segmentation of users based on behavioural patterns to identify high-risk or high-value profiles.
+ * **Churn Analysis**:
+    * Churn rate segmented by platform usage
+    * Average churn rate by referral status
+* **Engagement Score**: Visualised by cluster and filters, providing insight into how user types interact with the platform.
+
+**Interactive Filters**:
+ * Age group
+ * Referral status (Referred / Not Referred)
+ * User type (web, app, both, none)
+
+These filters allow stakeholders to explore specific user cohorts and assess targeted behaviours. 
+
+[Click here to access the Tableau Dashboard](https://public.tableau.com/app/profile/ivy.kepiro/viz/FinTechUser/Dashboard1) 
+
 ## Key Findings & Insights
 
 ## Future Improvements
