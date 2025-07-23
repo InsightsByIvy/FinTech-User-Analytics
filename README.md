@@ -118,6 +118,15 @@ This project is designed to be accessible and valuable for a range of users:
 
 ## Methodology
 
+This project follows a structured data science approach to extract user insights, build behavioural profiles, and identify key engagement patterns within a fintech platform.
+
+ * **Data Collection & Preparation**: Imported the dataset, handled missing values, and cleaned data for consistency.
+
+ * **Exploratory Data Analysis (EDA)**: Investigated distributions of key variables and relationships between user demographics, behaviour, and engagement.
+
+ * **Visualisation**: Developed an interactive dashboard to present insights tailored for business and product stakeholders.
+
+
 ## Visualisation
 
 ## Key Findings & Insights
