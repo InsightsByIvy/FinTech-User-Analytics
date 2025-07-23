@@ -95,6 +95,27 @@ These insights can be used by fintech platforms to inform product design, market
 
 ## How To Use This Project
 
+This project is designed to be accessible and valuable for a range of users:
+
+**For Business Users**
+
+ * **Goal:** Understand key user segments and what drives engagement, churn, and product adoption.
+ * **How to Use:** Explore the Tableau dashboard to view KPIs, user persona rankings, and loyalty trends.
+ * **Value:** Support strategic decisions on product offerings, referral systems, and retention campaigns.
+
+**For Product Teams**
+
+ * **Goal:** Identify high-value user behaviours and optimise onboarding or referral flows.
+ * **How to Use:** Use the dashboard filters to analyse app vs. web users, platform preferences (iOS/Android), and referral impacts.
+ * **Value:** Improve user experience and product-market fit based on behavioural insights.
+
+**For Analysts**
+
+ * **Goal:** Dive deep into behavioural data and modelling logic.
+ * **How to Use:** Navigate the notebooks/folder to follow data preparation, feature engineering, and ML development steps.
+ * **Value:** Extend the analysis or apply the framework to new fintech user datasets.
+
+
 ## Methodology
 
 ## Visualisation
