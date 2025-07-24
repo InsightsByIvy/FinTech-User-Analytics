@@ -170,7 +170,7 @@ Future work will include model tuning, dashboard integration, and real-time chur
 This project incorporates both exploratory visualisations in Python notebooks and an interactive Tableau dashboard to gain insights into user behaviour and engagement.
 
 ### Notebook Visualisations
-To understand the distribution and variability of key numerical features, we plotted:
+To understand the distribution and variability of key numerical features, the following plots were created:
 
  * Histograms for:
     * `age`
@@ -278,7 +278,7 @@ Combining usage behaviour with demographic and reward features led to better chu
 
 ### Personal Reflection
 This capstone project has been a valuable opportunity to apply analytical skills to a real-world problem. 
-One area I found particularly challenging was developing a dashboard that is not only functional but also visually appealing and intuitive. I realised that creating a compelling user experience takes more time and design consideration than expected, especially when balancing clarity, interactivity, and aesthetics. Although I started with a clear project plan, I learned the importance of staying adaptable. As the project progressed, some assumptions changed, whether due to data limitations or evolving goals—which required me to adjust my approach. Moving forward, I aim to improve my design and UI skills to create dashboards that communicate insights more powerfully. I also plan to continue refining my ability to adapt project plans in real-time, while maintaining focus on the core objectives.
+One area I found particularly challenging was developing a dashboard that is not only functional but also visually appealing and intuitive. I realised that creating a compelling user experience takes more time and design consideration than expected, especially when balancing clarity, interactivity, and aesthetics. Although I started with a clear project plan, I learned the importance of staying adaptable. As the project progressed, some assumptions changed, whether due to data limitations or evolving goals, which required me to adjust my approach. Moving forward, I aim to improve my design and UI skills to create dashboards that communicate insights more powerfully. I also plan to continue refining my ability to adapt project plans in real-time, while maintaining focus on the core objectives.
 
 
 ## Ethical Considerations
