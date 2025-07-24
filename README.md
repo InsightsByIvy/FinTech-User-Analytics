@@ -1,6 +1,8 @@
 # FinTech-User-Analytics
 Comprehensive fintech user analytics: Insights, segmentation, profiling, and predictive risk modelling.
 
+![Image](Images/thumbnail.png)
+
 ## Table of Content 
 - [Project Overview](#ProjectOverview)
 - [Business Context & Problem Statement]()
@@ -233,13 +235,20 @@ Additionally, we must consider the potential for algorithmic bias in churn predi
 
 ## Technologies Used
 
-Main Data Analysis Libraries
-Pandas: Pandas was used throughout the course as it allows the manipulation of data frames.
-Matplotlib: Matplotlib was used to make EDA visualisations.
-Plotly: Plotly was used to make EDA visualisations.
-Seaborn: Seaborn was used to make EDA visualisations.
-SciPy SciPy was used for statistical tests.
-Scikit-Learn SkLearn was used for machine learning.
+### Data Analysis & Manipulation
+- **Pandas** – used for data preparation, cleaning, and transformation tasks.
+- **NumPy** – used for numerical operations and array manipulation (often used with Pandas).
+- **Jupyter Notebook** – used for interactive coding, documentation, and visual output.
+
+### Data Visualisation
+- **Matplotlib** – used for basic plotting and custom visualisations during exploratory data analysis (EDA).
+- **Seaborn** – used for statistical data visualisations such as correlation heatmapsa and boxplots.
+- **Plotly** – used for interactive and dynamic chart.
+- **Tableau** – used alongside Python visualizations to build high-level dashboards and share insights interactively.
+
+### Machine Learning & Modelling
+- **Scikit-Learn** – used for model building, preprocessing, feature selection, cross-validation, and evaluation.
+- **SciPy** – used for statistical hypothesis testing (e.g., Mann–Whitney U test, t-tests, chi-square test) to validate key business hypotheses.
 
 ## Credits
 
