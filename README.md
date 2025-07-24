@@ -249,11 +249,11 @@ Combining usage behaviour with demographic and reward features led to better chu
 
 ## Future Improvements
 
-- **Machine Learning Integration**: Develop and evaluate churn prediction models using logistic regression, decision trees, or ensemble methods (e.g., random forest, XGBoost).
-- **Feature Engineering**: Derive new features (e.g., engagement scores or temporal usage patterns) to enhance predictive power.
+- **Advanced Model Tuning**: Explore additional algorithms such as XGBoost and fine-tune hyperparameters to improve churn prediction performance.
+- **Feature Engineering**: Create richer behavioural and temporal features to boost model accuracy.
 - **A/B Testing Design**: Propose experiments to validate the impact of rewards or referral systems on churn reduction.
 - **Enhanced Dashboarding**: Improve dashboard interactivity and performance with user-driven filters, cohort tracking, and retention funnel views.
-- **Productionisation**: Package models and dashboards for deployment in a real-world analytics environment.
+- **Model Deployment**: Develop a pipeline to serve predictive models and dashboards in a production or near-real-time environment.
 
 
 ## Learning Outcomes and Reflection
@@ -309,3 +309,5 @@ Additionally, we must consider the potential for algorithmic bias in churn predi
 
  ## Acknowledgement:
  I would like to thank all Code Institute staff members and my fellow cohort participants for their continuous support throughout the course.
+
+[🔝 Back to Top](#FinTech-User-Analytics)
