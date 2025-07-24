@@ -4,23 +4,23 @@ Comprehensive fintech user analytics: Insights, segmentation, profiling, and pre
 ![Image](Images/thumbnail.png)
 
 ## Table of Content 
-- [Project Overview](#ProjectOverview)
-- [Business Context & Problem Statement]()
-- [Objectives](#Objectives)
-- [Hypotheses](#Hypotheses)
-- [Dataset](#Dataset)
-- [Project Structure](#ProjectStructure)
-- [How To Use This Project](#HowToUseThisProject)
-- [Methodology](#Methodology)
-- [Machine Learning Approach](#MachineLearningApproach)
-- [Visualisation](#Visualisation)
-- [Key Findings & Insights](#KeyFindings&Insights)
-- [Future Improvements](#FutureImprovements)
-- [Learning Outcomes & Reflection]()
-- [Ethical Considerations](#EthicalConsiderations)
-- [Technologies Used / Main Data Analysis Libraries]()
-- [Credits](#Credits)
-- [Acknowledgements](#Acknowledgements)
+- [Project Overview](#project-overview)
+- [Business Context & Problem Statement](#business-context--problem-statement)
+- [Objectives](#objectives)
+- [Hypotheses](#hypotheses)
+- [Dataset](#dataset)
+- [Project Structure](#project-structure)
+- [How To Use This Project](#how-to-use-this-project)
+- [Methodology](#methodology)
+- [Machine Learning Approach](#machine-learning-approach)
+- [Visualisation](#visualisation)
+- [Key Findings & Insights](#key-findings--insights)
+- [Future Improvements](#future-improvements)
+- [Learning Outcomes & Reflection](#learning-outcomes--reflection)
+- [Ethical Considerations](#ethical-considerations)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 
@@ -33,7 +33,7 @@ In today’s fast-moving fintech landscape, companies face intense competition f
  * Improve user retention and lifetime value
  * Optimise product features and offerings
  * Personalise the user experience across channels
- * Mitigate risk through behavioral and financial profiling
+ * Mitigate risk through behavioural and financial profiling
 
 This project leverages simulated fintech user data to:
  * Detect and predict churn behaviour
@@ -95,8 +95,7 @@ The Fintech Users dataset contains behavioural and demographic data for 27,000 f
 ├── 📁 Images
 ├── 📄 .gitignore                              # Specifies files/folders Git should ignore
 ├── 📄 README.md                               # Project overview
-├── 📄 requirements.txt                        # Dependencies
-└── 📄 Tableau_Dashboard.twbx                  # Packaged dashboard (if used)
+└── 📄 requirements.txt                        # Dependencies
 </pre>
 
 
@@ -133,13 +132,13 @@ This project follows a structured data science approach to extract user insights
 
  * **Visualisation**: Developed an interactive dashboard to present insights tailored for business and product stakeholders.
 
-## Machine Learning Approach(Upcoming)
+## Machine Learning Approach (Upcoming)
 
 The next phase of this project will involve developing predictive models to estimate churn probability and identify key behavioural drivers. Planned methods include logistic regression, decision trees, and ensemble models, supported by techniques like feature engineering and cross-validation.
 
 ## Visualisation
 
-This project incorporates both exploratory visualizations in Python notebooks and an interactive Tableau dashboard to gain insights into user behavior and engagement.
+This project incorporates both exploratory visualisations in Python notebooks and an interactive Tableau dashboard to gain insights into user behaviour and engagement.
 
 ### Notebook Visualisations
 To understand the distribution and variability of key numerical features, we plotted:
@@ -178,7 +177,6 @@ An interactive dashboard was created using Tableau to explore key performance in
 **Interactive Filters**:
  * Age group
  * Referral status (Referred / Not Referred)
- * User type (web, app, both, none)
 
 These filters allow stakeholders to explore specific user cohorts and assess targeted behaviours. 
 
@@ -186,28 +184,34 @@ These filters allow stakeholders to explore specific user cohorts and assess tar
 
 ## Key Findings & Insights
 
-Analysis of 26,542 fintech users reveals critical patterns affecting customer retention and engagement. With an overall churn rate of 42.1%, the platform faces significant retention challenges, but targeted interventions based on rewards, referrals, and mobile engagement show promising opportunities for improvement.
+Analysis of 24,741 fintech users reveals critical patterns affecting customer retention and engagement. With an overall churn rate of 42.1%, the platform faces significant retention challenges, but targeted interventions based on rewards, referrals, and mobile engagement show promising opportunities for improvement.
 
-1. **Rewards Programs Drive Loyalty**: 
-Users earning higher rewards show significantly better retention.
- * Retained users earn median rewards of 26.00 points
- * Churned users earn median rewards of 15.00 points
+1. **Rewards Programs Drive Loyalty**  
+   Users earning higher rewards show significantly better retention:
 
-2. **Referral Programs Excel at Retention**: 
-Referred users demonstrate superior retention performance.
- * Referred users: 35.9% churn rate
- * Non-referred users: 45.0% churn rate
- * 20% relative improvement in retention through referrals
+   - **Retained users** earn a median of **26.00 points**
+   - **Churned users** earn a median of **15.00 points**
 
-3. **Mobile-First Strategy Critical for Engagement**:
-App users show dramatically higher engagement:
- * App users: 39.10 average engagement score
- * Web-only users: 0.01 average engagement score
+2. **Referral Programs Excel at Retention**  
+   Referred users demonstrate superior retention performance:
 
-4. **Platform Usage Patterns**:
- * 95.3% app adoption rate shows strong mobile preference
- * 60.6% web usage indicates multi-channel behaviour
- * Cross-platform users likely represent highest-value segment
+   - **Referred users**: 35.9% churn rate  
+   - **Non-referred users**: 45.0% churn rate  
+   - **20%** relative improvement in retention through referrals  
+
+3. **Mobile-First Strategy Critical for Engagement**  
+   App users show dramatically higher engagement:
+
+   - **App users**: 39.10 average engagement score  
+   - **Web-only users**: 0.01 average engagement score  
+
+4. **Platform Usage Patterns**  
+   Insights into cross-platform behaviour and adoption:
+
+   - **95.3%** app adoption rate shows strong mobile preference  
+   - **60.6%** web usage indicates multi-channel behaviour  
+   - **Cross-platform users** likely represent the highest-value segment  
+
 
 ## Future Improvements
 
