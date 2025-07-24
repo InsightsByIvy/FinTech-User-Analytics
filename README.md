@@ -91,7 +91,8 @@ The Fintech Users dataset contains behavioural and demographic data for 27,000 f
 ├── 📁 Notebooks
 │   ├── 📄 01_initial_inspection.ipynb         
 │   ├── 📄 02_data_cleaning.ipynb            
-│   └── 📄 03_hypothesis_testing.ipynb         
+│   ├── 📄 03_hypothesis_testing.ipynb 
+│   └── 📄 04_machine_learning.ipynb         
 ├── 📁 Images
 ├── 📄 .gitignore                              # Specifies files/folders Git should ignore
 ├── 📄 README.md                               # Project overview
@@ -130,11 +131,39 @@ This project follows a structured data science approach to extract user insights
 
  * **Exploratory Data Analysis (EDA)**: Investigated distributions of key variables and relationships between user demographics, behaviour, and engagement.
 
+ * **Machine Learning**: Built and evaluated predictive models, including logistic regression and random forest classifiers, to estimate customer churn. Model performance was assessed using precision, recall, and F1-score metrics. 
+
  * **Visualisation**: Developed an interactive dashboard to present insights tailored for business and product stakeholders.
 
-## Machine Learning Approach (Upcoming)
 
-The next phase of this project will involve developing predictive models to estimate churn probability and identify key behavioural drivers. Planned methods include logistic regression, decision trees, and ensemble models, supported by techniques like feature engineering and cross-validation.
+## Machine Learning Approach
+
+This phase of the project focused on developing and evaluating predictive models to estimate churn probability and uncover key behavioural drivers of churn.
+
+Multiple algorithms were tested, including:
+
+- **Logistic Regression** – as a baseline model  
+- **Random Forest Classifier** – to capture non-linear patterns and gain feature importance insights
+
+### Key Techniques Used
+- **Feature Engineering**: Selected behavioural and demographic variables relevant to churn  
+- **One-Hot Encoding**: Transformed categorical variables for model compatibility  
+- **Standardisation**: Applied to numerical features (e.g., age, credit score)  
+- **Train/Test Split with Stratification**: Ensured class distribution consistency  
+- **Class Imbalance Handling**: Used `class_weight='balanced'` to improve recall on minority class  
+- **Model Evaluation**: Precision, recall, F1-score, and accuracy used for comparison
+
+### Results Summary
+- **Random Forest** performed better than logistic regression across all key metrics  
+- The model identified the following as the **top predictors of churn**:
+  - `age`
+  - `credit_score`
+  - `reward_rate`
+  - `rewards_earned`
+
+These findings highlight the strong influence of customer financial behaviour and engagement with the rewards system.
+
+Future work will include model tuning, dashboard integration, and real-time churn scoring.
 
 ## Visualisation
 
@@ -192,6 +221,7 @@ Analysis of 24,741 fintech users reveals critical patterns affecting customer re
    - **Retained users** earn a median of **26.00 points**
    - **Churned users** earn a median of **15.00 points**
 
+
 2. **Referral Programs Excel at Retention**  
    Referred users demonstrate superior retention performance:
 
@@ -199,11 +229,13 @@ Analysis of 24,741 fintech users reveals critical patterns affecting customer re
    - **Non-referred users**: 45.0% churn rate  
    - **20%** relative improvement in retention through referrals  
 
+
 3. **Mobile-First Strategy Critical for Engagement**  
    App users show dramatically higher engagement:
 
    - **App users**: 39.10 average engagement score  
    - **Web-only users**: 0.01 average engagement score  
+
 
 4. **Platform Usage Patterns**  
    Insights into cross-platform behaviour and adoption:
@@ -211,6 +243,8 @@ Analysis of 24,741 fintech users reveals critical patterns affecting customer re
    - **95.3%** app adoption rate shows strong mobile preference  
    - **60.6%** web usage indicates multi-channel behaviour  
    - **Cross-platform users** likely represent the highest-value segment  
+
+Combining usage behaviour with demographic and reward features led to better churn classification results.
 
 
 ## Future Improvements
