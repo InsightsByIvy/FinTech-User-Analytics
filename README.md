@@ -80,7 +80,6 @@ The Fintech Users dataset contains behavioural and demographic data for 27,000 f
  * **Records**: 27,000 users
  * **Features**: 31 variables (24 integer, 4 float, 3 categorical)
 
-
 ## Project Structure
 
 <pre>📦 FinTech_User_Analytics
@@ -134,6 +133,9 @@ This project follows a structured data science approach to extract user insights
 
  * **Visualisation**: Developed an interactive dashboard to present insights tailored for business and product stakeholders.
 
+## Machine Learning Approach(Upcoming)
+
+The next phase of this project will involve developing predictive models to estimate churn probability and identify key behavioural drivers. Planned methods include logistic regression, decision trees, and ensemble models, supported by techniques like feature engineering and cross-validation.
 
 ## Visualisation
 
@@ -209,6 +211,13 @@ App users show dramatically higher engagement:
 
 ## Future Improvements
 
+- **Machine Learning Integration**: Develop and evaluate churn prediction models using logistic regression, decision trees, or ensemble methods (e.g., random forest, XGBoost).
+- **Feature Engineering**: Derive new features (e.g., engagement scores or temporal usage patterns) to enhance predictive power.
+- **A/B Testing Design**: Propose experiments to validate the impact of rewards or referral systems on churn reduction.
+- **Enhanced Dashboarding**: Improve dashboard interactivity and performance with user-driven filters, cohort tracking, and retention funnel views.
+- **Productionisation**: Package models and dashboards for deployment in a real-world analytics environment.
+
+
 ## Learning Outcomes and Reflection
 
 ### Capstone Learning Objectives Checklist
@@ -236,26 +245,29 @@ Additionally, we must consider the potential for algorithmic bias in churn predi
 ## Technologies Used
 
 ### Data Analysis & Manipulation
-- **Pandas** – used for data preparation, cleaning, and transformation tasks.
-- **NumPy** – used for numerical operations and array manipulation (often used with Pandas).
-- **Jupyter Notebook** – used for interactive coding, documentation, and visual output.
+- **Pandas** – for data preparation, cleaning, and transformation tasks.
+- **NumPy** – for numerical operations and array manipulation.
+- **Jupyter Notebook** – for interactive coding, documentation, and visual output.
 
 ### Data Visualisation
-- **Matplotlib** – used for basic plotting and custom visualisations during exploratory data analysis (EDA).
-- **Seaborn** – used for statistical data visualisations such as correlation heatmapsa and boxplots.
-- **Plotly** – used for interactive and dynamic chart.
-- **Tableau** – used alongside Python visualizations to build high-level dashboards and share insights interactively.
+- **Matplotlib** – for basic plotting and custom visualisations during exploratory data analysis (EDA).
+- **Seaborn** – for statistical data visualisations such as correlation heatmaps and boxplots.
+- **Plotly** – for interactive and dynamic chart.
+- **Tableau** – for building high-level interactive dashboard.
 
 ### Machine Learning & Modelling
-- **Scikit-Learn** – used for model building, preprocessing, feature selection, cross-validation, and evaluation.
-- **SciPy** – used for statistical hypothesis testing (e.g., Mann–Whitney U test, t-tests, chi-square test) to validate key business hypotheses.
+- **Scikit-Learn** – for model building, preprocessing, feature selection, cross-validation, and evaluation.
+- **SciPy** – for statistical hypothesis testing (e.g., Mann–Whitney U test, t-tests, chi-square test) to validate key business hypotheses.
 
 ## Credits
 
- - [Kaggle](https://www.kaggle.com/datasets/niketdheeryan/fintech-users-data): For providing the FinTech Users Dataset
- - [Canva](https://www.canva.com/design/DAGtbZPuH18/A0jzAFmy08rXnbawqq0WXA/edit) is used for project Image
- - Variety of [AI](https://chatgpt.com/?model=auto) Tools were used to suggest and debug codes
- - [Seaborn](https://seaborn.pydata.org/) documentation was reviewed for visualisation
+ - [Code Institute](https://learn.codeinstitute.net/dashboard): Learning materials were used for reviewing concepts and guiding project structure.
+ - [Kaggle](https://www.kaggle.com/datasets/niketdheeryan/fintech-users-data): Source of the FinTech Users Dataset.
+ - [Canva](https://www.canva.com/design/DAGtbZPuH18/A0jzAFmy08rXnbawqq0WXA/edit): Used for designing project cover image.
+ - [Variety of AI Tools](https://chatgpt.com/?model=auto): Assisted in code suggestions, debugging, and documentation refinement.
+ - [Seaborn](https://seaborn.pydata.org/): Referenced for creating advanced visualisations.
+ - [Matplotlib](https://matplotlib.org/): Used for plotting support and style guides.
+ - [Coolors.co](https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46): Used for colour palette inspiration.
 
  ## Acknowledgement:
  I would like to thank all Code Institute staff members and my fellow cohort participants for their continuous support throughout the course.
