@@ -20,7 +20,7 @@ Comprehensive fintech user analytics: Insights, segmentation, profiling, and pre
 - [Ethical Considerations](#ethical-considerations)
 - [Technologies Used](#technologies-used)
 - [Credits](#credits)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgement](#acknowledgement)
 
 ## Project Overview
 
@@ -206,8 +206,13 @@ An interactive dashboard was created using Tableau to explore key performance in
 **Interactive Filters**:
  * Age group
  * Referral status (Referred / Not Referred)
+ * Platform (iOS, Andriod)
 
 These filters allow stakeholders to explore specific user cohorts and assess targeted behaviours. 
+
+**Known Issue with Reset Functionality**:
+
+The `Reset All Filters` button is designed to return all filters to their default states, restoring the full dataset view across all KPIs and charts. However, the button does not consistently reset all filters and some charts may remain filtered after use. This will be addressed in an upcoming fix.
 
 [Click here to access the Tableau Dashboard](https://public.tableau.com/app/profile/ivy.kepiro/viz/FinTechUser/Dashboard1) 
 
